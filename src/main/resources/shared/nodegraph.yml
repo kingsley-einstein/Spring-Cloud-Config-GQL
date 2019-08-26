@@ -1,0 +1,15 @@
+profile:
+  client:
+    host: http://localhost:8762
+user:
+  client:
+    host: http://localhost:8763
+registerWithEureka: true
+fetchRegistry: true
+eurekaHost: localhost
+eurekaPort: 9800
+serviceName: nodegraph
+instance:
+  hostname: localhost
+  ip: 127.0.0.1
+  vip: nodegraph
